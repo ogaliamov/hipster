@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "hipster",
+    "packageName": "com.galiamov.hipster",
+    "packageFolder": "com/galiamov/hipster",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "b4b999961ff4c0db62be9be057589f5cc4bafcde",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}
